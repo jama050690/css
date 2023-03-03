@@ -1,0 +1,27 @@
+.box{
+    background-color: red;
+    padding: 20px;
+    /*
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+     Qisqartna (Shorthands)*/
+    border-top: 5px solid blue;
+    border-right: 5px solid blue;
+    border-bottom: 5px solid blue;
+    border-left: 5px solid blue;
+   /* MArgin tomoblari */
+    margin-top: 10px;
+    margin-right: 6px;
+    margin-bottom: 8px;
+    margin-left: 9px;
+
+
+    /*margin shorthands (Margin shorthans)
+    margin: top,(10px) right(4p{x),bottom(8px), left (9px)
+    margin: 10px, 6px, 8px, 9px--!>
+
+}
+.box-2 {
+    background-color: yellow;
+}

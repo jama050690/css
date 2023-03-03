@@ -1,0 +1,10 @@
+/*.link:active {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+*/
+.heading-1:hover { 
+    background-color: blue;
+    color: white;
+}

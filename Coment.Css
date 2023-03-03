@@ -1,0 +1,20 @@
+/* Universal selector*/
+* {
+    color: blue;
+}
+/* Tag  selector*/
+h1 {
+    color: green;
+}
+/*Proporty selector*/
+[box] {
+    color: red;
+}
+/* Class selector*/
+.jama {
+    color: yellow;
+}
+/* ID selector*/
+#curs-name {
+    color: black;
+}

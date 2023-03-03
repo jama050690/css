@@ -1,0 +1,21 @@
+/* Selector niversal*/ 
+ * {
+    color: yellow;
+ }
+ /*    <!--Atribut([atribut]) yordamida cssda rang berish-->
+ [box] {
+    color: blue;
+}
+    <!--Id(#) yordamida cssda rang berish-->
+#kurs {
+    color:green;
+}
+
+ <!--Class(.) yordamida cssda rang berish
+.kurs {
+    color:black;
+   }
+       <!--Element(tag(p)) yordamida cssda rang berish
+p {
+    color: red;
+}-->

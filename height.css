@@ -1,0 +1,26 @@
+.box{
+    background-color: yellow;
+    min-height: 10px;
+}
+/*
+.box {
+
+    background-color: blue;
+    max-height: 30px;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.box{
+    background-color: red;
+    height: 100%;
+}
+
+.box{
+    background-color: red;
+    height: 200px;
+}
+*/

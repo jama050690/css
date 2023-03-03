@@ -1,0 +1,8 @@
+.link-1, .link-2 {
+    background-color: red;
+    color: white;
+}
+.link-2 {
+    border: 5px solid blue;
+
+}

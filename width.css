@@ -1,0 +1,26 @@
+.box {
+    background-color: red;
+    min-width: 50px;
+}
+/*
+.box {
+    background-color: red;
+    max-width: 50px;
+}
+/*
+html{
+    width: 100%;
+}
+body{
+    width: 100%;
+}
+.box{
+    background-color: red;
+    width: 100%;
+}
+/*
+.box{
+    background-color: green;
+    width: 200px;
+}
+-->
