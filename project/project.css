@@ -16,6 +16,40 @@ body {
 .clearfix {
     clear: both;
 }
+.section-subtitle {
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #797979;
+    text-transform: uppercase;
+
+}
+.section-title {
+    margin-top: 5px;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #05364d;
+}
+.button {
+    border: none;
+    background-color: #1C44E4;
+    color: #FFFF;
+    font-weight: 500;
+    font-size: 14PX;
+    padding: 20PX 40PX;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.blur-line {
+    display: inline-block;
+    margin-left: 5px;
+    width: 80px;
+    height: 4px;
+    background-color: rgba(237, 35, 159, 0.6);
+    filter: blur(4px);
+    border-radius: 4px;
+}
 
 /*End of Core style*/
 
@@ -113,14 +147,7 @@ body {
 
 .main-section__action {
     margin-top: 30px;
-    border: none;
-    background-color: #1C44E4;
-    color: #FFFF;
-    font-weight: 500;
-    font-size: 14PX;
-    padding: 20PX 40PX;
-    cursor: pointer;
-    border-radius: 5px;
+    
 }
 
 /* Statisticcal section*/
@@ -148,3 +175,32 @@ body {
     color: #797979;
     font-weight: 300;
 }
+
+/* About me section*/
+
+.about-me {
+    padding: 100px 0;
+}
+
+
+.about-me > div {
+    width: 50px;
+    float: left;
+}
+
+.about-me__image img{
+    width: 90%;
+
+}
+/* 
+.about-me__description {
+font-size: 14px;
+font-weight: 300;
+color: #797979;
+line-height: 27px;
+
+}
+
+.about-me__action {
+    margin-top: 40px;
+} */
