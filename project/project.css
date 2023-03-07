@@ -1,7 +1,6 @@
 /*start of Core style*/
 body {
     font-family: sans-serif;
-
 }
 
 .container {
@@ -22,7 +21,6 @@ body {
     margin-bottom: 10px;
     color: #797979;
     text-transform: uppercase;
-
 }
 .section-title {
     margin-top: 5px;
@@ -33,11 +31,11 @@ body {
 }
 .button {
     border: none;
-    background-color: #1C44E4;
-    color: #FFFF;
+    background-color: #1c44e4;
+    color: #ffff;
     font-weight: 500;
-    font-size: 14PX;
-    padding: 20PX 40PX;
+    font-size: 14px;
+    padding: 20px 40px;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -88,7 +86,6 @@ body {
 
 .main-navigation__item.active a {
     color: #efb6df;
-
 }
 
 /*Start of Main header styles*/
@@ -98,17 +95,20 @@ body {
     padding: 100px 30px;
 }
 
-.main-section>div {
-    width: 50px;
+.main-section > div {
+    width: 50%;
     float: left;
 }
 
 .main-section__img {
     text-align: right;
-
 }
 
-.main-section__wellcome {
+.main-section__img img {
+    width: 65px;
+}
+
+.main-section__welcome {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 20px;
@@ -116,7 +116,7 @@ body {
     color: #797979;
 }
 
-.main-section__introduction {
+.main-section__intro {
     margin-top: 20px;
     font-size: 60px;
     font-weight: 500;
@@ -129,10 +129,9 @@ body {
     font-size: 24px;
     font-weight: 300px;
     margin-bottom: 20px;
-
 }
 
-.main-section__social-networks a {
+.main-section__socials a {
     color: #8fa1aa;
     font-size: 20px;
     display: inline-block;
@@ -140,14 +139,12 @@ body {
     cursor: pointer;
 }
 
-.main-section__social-networks a:hover i {
-    color: #1C44E4;
-
+.main-section__socials a:hover {
+    color: #1c44e4;
 }
 
 .main-section__action {
     margin-top: 30px;
-    
 }
 
 /* Statisticcal section*/
@@ -167,7 +164,7 @@ body {
 .statistics__number {
     font-size: 27px;
     margin-bottom: 5px;
-    color: #1C44E4;
+    color: #1c44e4;
 }
 
 .statistics__title {
@@ -182,27 +179,23 @@ body {
     padding: 100px 0;
 }
 
-
 .about-me > div {
-    width: 50px;
+    width: 50%;
     float: left;
 }
-ok
-.about-me__image img{
+.about-me__image img {
     width: 90%;
-
-} 
+}
 .about-me__description {
-font-size: 14px;
-font-weight: 300;
-color: #797979;
-line-height: 27px;
-
+    font-size: 14px;
+    font-weight: 300;
+    color: #797979;
+    line-height: 27px;
 }
 
 .about-me__action {
     margin-top: 40px;
-} 
+}
 /*  End of About section styles */
 
 /*  Start of Services section styles */
@@ -211,7 +204,7 @@ line-height: 27px;
 }
 .service-card {
     display: inline-block;
-    width: 30px;
+    width: 30%;
     background-color: #f8faff;
     margin-right: 3px;
     text-align: center;
@@ -223,7 +216,6 @@ line-height: 27px;
     font-weight: 500;
     margin-bottom: 20px;
     text-transform: uppercase;
-
 }
 
 .service-card__description {
@@ -231,7 +223,6 @@ line-height: 27px;
     line-height: 27px;
     font-weight: 300;
     color: #797979;
-
 }
 .service-card__link {
     font-size: 13px;
@@ -239,7 +230,6 @@ line-height: 27px;
     text-transform: uppercase;
     color: #053640;
     text-decoration: none;
-
 }
 .service-card:hover {
     background-color: #5f30ff;
@@ -247,8 +237,7 @@ line-height: 27px;
 .service-card:hover .service-card__title,
 .service-card:hover .service-card__description,
 .service-card:hover .service-card__link {
-
-color: #ffffff;
+    color: #ffffff;
 }
 /* End of Services */
 
@@ -263,12 +252,10 @@ color: #ffffff;
 }
 .client-item__image img {
     width: 100%;
-
 }
 .client-item__info {
     padding-top: 50px;
     padding-left: 50px;
-
 }
 
 .client-item__name {
@@ -276,18 +263,15 @@ color: #ffffff;
     margin-bottom: 4px;
 }
 .client-item__position {
- font-size: 14px;
- font-weight: 300;
- color: #5b6d75;
-
-
+    font-size: 14px;
+    font-weight: 300;
+    color: #5b6d75;
 }
 .client-item__review {
     font-size: 14px;
     line-height: 27px;
     font-weight: 300;
     color: #5b6d75;
-
 }
 .client-item__rate {
     color: #ffd805;
@@ -296,12 +280,6 @@ color: #ffffff;
     color: #aeb98e;
 }
 
-
 /* End of My clients */
-
-
-
-
-
 
 /*  End of Services section styles */
