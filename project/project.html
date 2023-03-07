@@ -1,209 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="./project.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfoliya</title>
-    <link rel="stylesheet" href="./project.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <body>
+        <!--Header section-->
+        <div class="container">
+            <header class="main-header">
+                <div class="main-header_brand">
+                    <a href="./project.html">
+                        <img src="./images/logo.jpg" alt="logo" />
+                    </a>
+                </div>
+                <nav class="main-navigatin">
+                    <ul class="main-navigation__items">
+                        <li class="main-navigation__item active">
+                            <a href="#">Asosiy</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Men haqimda</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Xizmatlar</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Mijozlar</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Portfolio</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Sheriklar</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
 
-<body>
-    <!--Header section-->
-    <div class="container">
-        <header class="main-header">
-            <div class="main-header_brand">
-                <a href="./project.html">
-                    <img src="./images/logo.jpg" alt="logo">
-                </a>
-            </div>
-            <nav class="main-navigatin">
-                <ul class="main-navigation__items">
-                    <li class="main-navigation__item active">
+        <!--/ End of Header section-->
+
+        <!-- Start of main section-->
+        <div class="container">
+            <section id="main-section" class="Main-section">
+                <div class="main-section__info">
+                    <h4 class="main-section__wellcome to-uppercase">
+                        Salom hammaga
+                    </h4>
+                    <h1 class="main-section__introduction to-uppercase">
+                        I am Babajonov
+                    </h1>
+                    <h3 class="main-section__position to-uppercase">
+                        Junior (Kichik) dasturchi
+                    </h3>
+                    <div class="main-section__social-networks">
+                        <a href="https://t.me/JamshiddinBabajonov">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                        <a href="http://facebook.BabajonovJamshiddin">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="http://Whatsup.BABAJONOVJAMSHIDDIN">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="http://instagram.BabajonovJamshiddin">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                    <button
+                        type="button"
+                        class="button main-section__action to-uppercase"
+                    >
+                        SEE MY WORK
+                    </button>
+                </div>
+                <div class="main-section__img">
+                    <img src="./images/me.png" alt="me" />
+                </div>
+                <div class="color-fix"></div>
+            </section>
+        </div>
+        <!--End of /Main section-->
+
+        <!--Start of Statistics-->
+        <div class="container">
+            <section id="statistics" class="statistics">
+                <div class="statistics_item">
+                    <h3 class="statistics__number">15k+</h3>
+                    <p class="Statistics__title">Happy Customers</p>
+                </div>
+                <div class="statistics_item">
+                    <h3 class="statistics__number">12k+</h3>
+                    <p class="Statistics__title">Ticket Solved</p>
+                </div>
+                <div class="statistics_item">
+                    <h3 class="statistics__number">9/10</h3>
+                    <p class="Statistics__title">Averege Rating</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Start of about me section-->
+        <div class="container">
+            <section id="about-me" class="about-me">
+                <div class="about-me__image">
+                    <img src="./images/me.png" alt="me image" />
+                </div>
+
+                <div class="about-me__info">
+                    <h5 class="section-subtitle">
+                        Men haqimda
+                        <span class="blur-line"></span>
+                    </h5>
+                    <h3 class="section-title">Junior (Kichik) dasturchi</h3>
+                    <p class="about-me__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatem iusto dolorum ab repudiandae. Voluptatum sint
+                        odit eum, iusto corrupti magni?
+                    </p>
+                    <button
+                        type="button"
+                        class="button to-uppercase about-me__action"
+                    >
+                        Cv ko'chirib olish
+                    </button>
+                </div>
+            </section>
+        </div>
+        <div class="clearfix"></div>
+        <!--/ End of About me section-->
+
+        <!-- Start of Sercices section-->
+        <div class="container">
+            <section id="services" class="services">
+                <h5 class="section-subtitle">
+                    Mening hizmatlarim
+                    <span class="blur-line"></span>
+                </h5>
+                <h2 class="section-title">
+                    Men taklif <br />
+                    qiladigan xizmatlar
+                </h2>
+                <div class="services-cards">
+                    <div class="service-card">
+                        <img
+                            class="service-card__icon"
+                            src="./images/web-dasturlash.jpeg"
+                            alt="web-dasturlash"
+                        />
+                        <h4 class="service-card__title">WEB DEVELEMENT</h4>
+                        <p class="service-card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Dolorum voluptatibus quis illum, iusto ducimus
+                            voluptatem reprehenderit vel provident nostrum sit!
+                        </p>
+                        <a href="#" class="service-card__link"> Ko'proq </a>
+                    </div>
+                    <div class="service-card">
+                        <img
+                            class="service-card__icon"
+                            src="./images/UX Design.jpeg"
+                            alt="UX Design"
+                        />
+                        <h4 class="service-card__title">UX/IX DESIGN</h4>
+                        <p class="service-card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Dolorum voluptatibus quis illum, iusto ducimus
+                            voluptatem reprehenderit vel provident nostrum sit!
+                        </p>
+                        <a href="#" class="service-card__link"> Ko'proq </a>
+                    </div>
+                    <div class="service-card">
+                        <img
+                            class="service-card__icon"
+                            src="./images/WD Developing.png"
+                            alt="WD Developing"
+                        />
+                        <h4 class="service-card__title">WD DEVELOPING</h4>
+                        <p class="service-card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Dolorum voluptatibus quis illum, iusto ducimus
+                            voluptatem reprehenderit vel provident nostrum sit!
+                        </p>
+                        <a href="#" class="service-card__link"> Ko'proq </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="clearfix"></div>
+        <!-- End of Services section-->
+
+        <!--Clients section-->
+        <div class="container">
+            <section id="clients" class="clients">
+                <h5 class="section-subtitle">
+                    My clients
+                    <span class="blur-line"></span>
+                </h5>
+                <h2 class="section-title">
+                    Hurmatli Mijozlarim <br />
+                    men haqimda
+                </h2>
+                <div class="client-items">
+                    <div class="client-item">
+                        <div class="client-item__image">
+                            <img
+                                class="client-item__image"
+                                src="./images/me.png"
+                                alt="me"
+                            />
+                        </div>
+                        <div class="client-item__info">
+                            <h3 class="client-item__name">Jumanazar Saidov</h3>
+                            <p class="client-item__position">
+                                Middle (O'rta) dasturchi
+                            </p>
+                            <p class="client-item__review">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Dolorum voluptatibus quis
+                                illum, iusto ducimus voluptatem reprehenderit
+                                vel provident nostrum sit!
+                            </p>
+                            <div class="client-item__rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star disabled"></i>
+                                <i class="fa-solid fa-star disabled"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="clearfix"></div>
+        <!--/Clients section-->
+
+        <!--Portfolio section-->
+        <section id="Portfolio-section">
+            <h1>Portfolio</h1>
+        </section>
+        <!--/Portfolio section-->
+
+        <!--Blog section-->
+        <section id="Blog-section">
+            <h1>Blog</h1>
+        </section>
+        <!--/Blog section-->
+
+        <!-- Partners section-->
+        <section id="Partners-section">
+            <h1>Sheriklar</h1>
+        </section>
+        <!--/Partners section-->
+
+        <footer>
+            <nav>
+                <ul>
+                    <li>
                         <a href="#">Asosiy</a>
                     </li>
-                    <li class="main-navigation__item">
+                    <li>
                         <a href="#">Men haqimda</a>
                     </li>
-                    <li class="main-navigation__item">
+                    <li>
                         <a href="#">Xizmatlar</a>
-
                     </li>
-                    <li class="main-navigation__item">
+                    <li>
                         <a href="#">Mijozlar</a>
                     </li>
-                    <li class="main-navigation__item">
+                    <li>
                         <a href="#">Portfolio</a>
                     </li>
-                    <li class="main-navigation__item">
+                    <li>
                         <a href="#">Blog</a>
                     </li>
-                    <li class="main-navigation__item">
+                    <li>
                         <a href="#">Sheriklar</a>
                     </li>
                 </ul>
             </nav>
-
-        </header>
-    </div>
-
-    <!--/ End of Header section-->
-
-    <!-- Start of main section-->
-    <div class="container">
-        <section id="main-section" class="Main-section">
-            <div class="main-section__info">
-                <h4 class="main-section__wellcome to-uppercase">Salom hammaga</h4>
-                <h1 class="main-section__introduction to-uppercase">I am Babajonov</h1>
-                <h3 class="main-section__position to-uppercase">Junior (Kichik) dasturchi</h3>
-                <div class="main-section__social-networks">
-                    <a href="https://t.me/JamshiddinBabajonov">
-                        <i class="fa-brands fa-telegram"></i>
-                    </a>
-                    <a href="http://facebook.BabajonovJamshiddin">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-                    <a href="http://Whatsup.BABAJONOVJAMSHIDDIN">
-                        <i class="fa-brands fa-whatsapp"></i>
-                    </a>
-                    <a href="http://instagram.BabajonovJamshiddin">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </div>
-                <button type="button" class="button main-section__action to-uppercase">SEE MY WORK</button>
-            </div>
-            <div class="main-section__img">
-                <img src="./images/me.png" alt="me">
-            </div>
-            <div class="color-fix"></div>
-    </div>
-    </section>
-    <!--End of /Main section-->
-
-    <!--Start of Statistics-->
-    <div class="container">
-    <section id="statistics" class="statistics">
-        <div class="statistics_item">
-            <h3 class="statistics__number">
-                15k+
-            </h3>
-            <p class="Statistics__title">
-                Happy Customers
-            </p>
-        </div>
-        <div class="statistics_item">
-            <h3 class="statistics__number">
-                12k+
-            </h3>
-            <p class="Statistics__title">
-                Ticket Solved
-            </p>
-        </div>
-        <div class="statistics_item">
-            <h3 class="statistics__number">
-                9/10
-            </h3>
-            <p class="Statistics__title">
-                Averege Rating
-            </p>
-        </div>
-        </section>
-    </div>
-
-    <!-- Start of about me section-->
-    <div class="container"> 
-        <section id="about-me" class="about-me">
-        <div class="about-me__image">
-            <img src="./images/me.png" alt="me image">
-        </div>
-
-        <div class="about-me__info">
-            <h5 class="section-subtitle">
-                Men haqimda
-                <span class="blur-line"></span>
-            </h5>
-            <h3 class="section-title">
-                Junior (Kichik) dasturchi
-            </h3>
-            <!-- <p class="about-me__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatem iusto dolorum ab repudiandae. 
-            Voluptatum sint odit eum, iusto corrupti magni?
-            </p> -->
-            <button type="button" class="button to-uppercase about-me__action">
-            Cv ko'chirib olish
-            </button>
-        </div>
-    </section>
-</div>
-    <div class="clearfix"></div>
-    <!--/ End of About me section-->
-    
-<!-- Start of Sercices section-->
-    <div class="container">
-        <section id="services" class="statisticals">
-            <h5></h5>
-        </section>
-    </div>
-    <!-- End of Services section-->
-
-    <!--Clients section-->
-    <section id="Clients section">
-        <h1>Mijozlar</h1>
-    </section>
-    <!--/Clients section-->
-
-    <!--Portfolio section-->
-    <section id="Portfolio-section">
-        <h1>Portfolio</h1>
-    </section>
-    <!--/Portfolio section-->
-
-    <!--Blog section-->
-    <section id="Blog-section">
-        <h1>Blog</h1>
-    </section>
-    <!--/Blog section-->
-
-    <!-- Partners section-->
-    <section id="Partners-section">
-        <h1>Sheriklar</h1>
-    </section>
-    <!--/Partners section-->
-
-    <Footer>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Asosiy</a>
-                </li>
-                <li>
-                    <a href="#">Men haqimda</a>
-                </li>
-                <li>
-                    <a href="#">Xizmatlar</a>
-
-                </li>
-                <li>
-                    <a href="#">Mijozlar</a>
-                </li>
-                <li>
-                    <a href="#">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <a href="#">Sheriklar</a>
-                </li>
-            </ul>
-        </nav>
-
-    </Footer>
-</body>
-
+        </footer>
+    </body>
 </html>
