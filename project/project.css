@@ -184,7 +184,7 @@ body {
 
 
 .about-me > div {
-    width: 50px;
+    width: 50%;
     float: left;
 }
 ok
@@ -207,13 +207,14 @@ line-height: 27px;
 
 /*  Start of Services section styles */
 .services {
-    padding-top: 10px;
+    padding-top: 100px;
 }
 .service-card {
     display: inline-block;
-    width: 30px;
+    width: 30%;
+    padding: 60px 30px;
     background-color: #f8faff;
-    margin-right: 3px;
+    margin-right: 3%;
     text-align: center;
     box-sizing: border-box;
 }

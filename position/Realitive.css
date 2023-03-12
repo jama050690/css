@@ -1,0 +1,11 @@
+.relative-box {
+    position: relative;
+    top: -20px;
+    left: 20px;
+    background-color: blue;
+    height: 100px;
+}
+.box {
+    background-color: red;
+    height: 50px;
+}

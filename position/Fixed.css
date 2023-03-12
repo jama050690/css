@@ -1,0 +1,15 @@
+.body {
+   height: 400px;
+}
+.fixed-box {
+   position: fixed;
+   top: 50px;
+   right: 50px;
+   background-color: blue;
+   height: 100px;
+   width: 100%; 
+}
+.box {
+   background-color: red;
+   height: 200px;
+}
