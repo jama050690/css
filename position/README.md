@@ -1,0 +1,9 @@
+# CSS Kurs
+
+## Overflow
+
+-   Xossa 1.
+    -   bu shunday xossaki ...
+    -   unda bu ishni qilish mumkin...
+-   Xossa 2.
+    -   bu yana boshqa bir xossa...

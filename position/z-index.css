@@ -1,0 +1,13 @@
+.box-1 {
+    position: relative;
+    height: 200px;
+    background-color: red;
+    z-index: 1;
+}
+.box-2 {
+    position: relative;
+    top: -100px;
+    z-index: 2;
+height: 100px;
+background-color: blue;
+}
