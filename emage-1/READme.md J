@@ -1,0 +1,28 @@
+# CSS Kurs
+
+## Kursda CSS bilim va ko'nikmalari olinadi.
+.#GRADIENTLAR VA FILTERLAR
+
+# GRADIENTLAR
+-bu xossada biz bir vaqtning  o'zida ko'rsatilgan ikki va undan ortiq ranglar orasida o'tish imkoniyatini beradi.
+.Linear (chiziqli) gradient:
+-
+.Radial gradient:
+-bux xossada biz ranglarni markazdan boshlab keyin aylana shaklida joylashadi birin ketin
+
+### FILTERLAR
+- bu xossada elementga vizual effekt berish uchun ishlatiladi.
+#.Bur:
+- bu xossada biz rasmimizni xiraligini belgilaymiz. 
+#.Brightness:
+ -  bu xossadarasmimizni yorqinligini belgilaymiz
+ ##Contrast:
+ - bu xossada biz rassmingizni konstratsiyasini belgilaydi.
+ ##GRAYSCALE:
+ - bu xossada biz rasmimizni kul rangga o'tkazamiz.
+ ##Hue rotate:
+ -bu xossada biz rasmimizni rang aylanishini belgilaymiz.
+## Invert
+- bu xossada biz rasmimizni invertligini belgilaymiz.
+##Opacity
+- bu xossada biz rasmimizni ko'rish darajasini belgilaymiz.

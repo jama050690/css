@@ -1,0 +1,12 @@
+/* Liner-gradient
+.gradient-box {
+    width: 600px;
+    height: 800px;
+    background-image: linear-gradient(to  bottom right, red, blue);
+}
+*/
+.radial-gradient-box {
+    width: 600px;
+    height: 800px;
+    background-image: radial-gradient(circle, red, yellow, blue);
+}

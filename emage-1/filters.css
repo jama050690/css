@@ -1,0 +1,28 @@
+/*blur 
+.blur {
+    filter: blurS(15px;
+} 
+/*Brightness
+
+.brightness {
+    filter: brightnes (0.3);
+}
+
+.Contrast {
+    filter:contrast(0.5);
+}
+
+.grayscale {
+    filter: grayscale(0.7);
+}
+
+.huerotate {
+filter: hue-rotate(180deg);
+}
+.invert {
+    filter: invert(100%)
+}
+*/
+.opacity {
+    filter: opacity(50%);
+}
