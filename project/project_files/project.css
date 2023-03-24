@@ -1,5 +1,6 @@
 /*start of Core style*/
 body {
+    margin: 0;
     font-family: sans-serif;
 
 }
@@ -56,6 +57,7 @@ body {
 /*End of Core style*/
 
 /*Start of Main header styles*/
+
 .main-haider {
     position: fixed;
     top: 0;
@@ -105,6 +107,12 @@ body {
 /*Start of Main header styles*/
 
 /*Start of Main-Section style*/
+.main-banner {
+    background: url("../images/orqa-fon.jpg") no-repeat top center;
+    background-position: center;
+    background-size: cover;
+    min-height: 890px;
+}
 .main-section {
     padding: 100px 30px;
 }
