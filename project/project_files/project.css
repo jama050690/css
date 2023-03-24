@@ -34,13 +34,17 @@ body {
 }
 .button {
     border: none;
-    background-color: #1C44E4;
+    background: linear-gradient(to right, #1345e6 0%, #e9239f 51%, #1345e6 100%);
+    background-size: 200% auto;
     color: #FFFF;
     font-weight: 500;
     font-size: 14PX;
     padding: 20PX 40PX;
     cursor: pointer;
     border-radius: 5px;
+}
+.buttun:hover {
+    background-position: right center;
 }
 .blur-line {
     display: inline-block;
@@ -58,22 +62,23 @@ body {
 
 /*Start of Main header styles*/
 
-.main-haider {
+.main-header {
     position: fixed;
     top: 0;
     left: 0;
-    background-color:white ;
     width: 100%;
+    background-color:white ;
     box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
-    z-index: 10;
+    margin-top: 0;
+
 }
 
-.main-header_brand {
+.main-header__brand {
     display: inline-block;
     vertical-align: middle;
 }
 
-.main-header_brand img {
+.main-header__brand img {
     width: 65px;
 }
 
@@ -186,7 +191,9 @@ body {
 .statistics__number {
     font-size: 27px;
     margin-bottom: 5px;
-    color: #1C44E4;
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .statistics__title {
