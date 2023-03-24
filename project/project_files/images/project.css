@@ -1,0 +1,419 @@
+/*start of Core style*/
+body {
+    font-family: sans-serif;
+
+}
+
+.container {
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.to-uppercase {
+    text-transform: uppercase;
+}
+
+.clearfix {
+    clear: both;
+}
+.section-subtitle {
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #797979;
+    text-transform: uppercase;
+
+}
+.section-title {
+    margin-top: 5px;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #05364d;
+}
+.button {
+    border: none;
+    background-color: #1C44E4;
+    color: #FFFF;
+    font-weight: 500;
+    font-size: 14PX;
+    padding: 20PX 40PX;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.blur-line {
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    margin-left: 5px;
+    width: 80px;
+    height: 4px;
+    background-color: rgba(237, 35, 159, 0.6);
+    filter: blur(4px);
+    border-radius: 4px;
+}
+
+/*End of Core style*/
+
+/*Start of Main header styles*/
+.main-banner {
+    background: url("../images/orqa-fon.jpg") no-repeat top center;
+    background-position: center;
+    background-size: cover;
+    min-height: 890px;
+}
+.main-haider {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:white ;
+    width: 100%;
+    box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
+    z-index: 10;
+}
+
+.main-header_brand {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header_brand img {
+    width: 65px;
+}
+
+.main-navigation {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-navigation__item {
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-navigation__item a {
+    color: #05364d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500px;
+}
+
+.main-navigation__item a:hover {
+    color: #efb6df;
+}
+
+.main-navigation__item.active a {
+    color: #efb6df;
+
+}
+
+/*Start of Main header styles*/
+
+/*Start of Main-Section style*/
+.main-section {
+    padding: 100px 30px;
+}
+
+.main-section>div {
+    width: 50%;
+    float: left;
+}
+
+.main-section__img {
+    text-align: right;
+
+}
+
+.main-section__wellcome {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #797979;
+}
+
+.main-section__introduction {
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #05364e;
+}
+
+.main-section__position {
+    color: #05364e;
+    font-size: 24px;
+    font-weight: 300px;
+    margin-bottom: 20px;
+
+}
+
+.main-section__social-networks a {
+    color: #8fa1aa;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.main-section__social-networks a:hover i {
+    color: #1C44E4;
+
+}
+
+.main-section__action {
+    margin-top: 30px;
+    
+}
+
+/* Statisticcal section*/
+.statistics {
+    padding: 100px;
+}
+
+.statistics_item {
+    display: inline-block;
+    width: 150px;
+    background-color: #f8faff;
+    text-align: center;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+
+.statistics__number {
+    font-size: 27px;
+    margin-bottom: 5px;
+    color: #1C44E4;
+}
+
+.statistics__title {
+    font-size: 16px;
+    color: #797979;
+    font-weight: 300;
+}
+
+/* About me section*/
+
+.about-me {
+    padding: 100px 0;
+}
+
+
+.about-me > div {
+    width: 50%;
+    float: left;
+}
+ok
+.about-me__image img{
+    width: 90%;
+
+} 
+.about-me__description {
+font-size: 14px;
+font-weight: 300;
+color: #797979;
+line-height: 27px;
+
+}
+
+.about-me__action {
+    margin-top: 40px;
+} 
+/*  End of About section styles */
+
+/*  Start of Services section styles */
+.services {
+    padding-top: 100px;
+}
+.service-card {
+    display: inline-block;
+    width: 30%;
+    padding: 60px 30px;
+    background-color: #f8faff;
+    margin-right: 3%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.service-card__title {
+    color: #053640;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+}
+
+.service-card__description {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #797979;
+
+}
+.service-card__link {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #053640;
+    text-decoration: none;
+
+}
+.service-card:hover {
+    background-color: #5f30ff;
+}
+.service-card:hover .service-card__title,
+.service-card:hover .service-card__description,
+.service-card:hover .service-card__link {
+
+color: #ffffff;
+}
+/* End of Services */
+
+/* Start of My clients */
+.clients {
+    padding-top: 100px;
+}
+.client-item > div {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.client-item__image img {
+    width: 100%;
+
+}
+.client-item__info {
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+
+.client-item__name {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+.client-item__position {
+ font-size: 14px;
+ font-weight: 300;
+ color: #5b6d75;
+
+
+}
+.client-item__review {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #5b6d75;
+
+}
+.client-item__rate {
+    color: #ffd805;
+}
+.client-item__rate .disabled {
+    color: #aeb98e;
+}
+
+
+/* End of My clients */
+
+/* Start of Portfolio section style */
+.portfolio {
+    padding: 100px 0;
+}
+.portfolio-items {
+    position: relative;
+    margin-top: 50px;
+}
+.portfolio-item {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.portfolio-item-1 {
+    padding-left: 0;
+}
+.portfolio-item_2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    }
+    .portfolio-item_3 {
+        position: absolute;
+        top: 322px;
+        right: 0;
+        width: 50%;
+        }
+    
+.portfolio-item__image {
+    width: 100%;
+}
+.portfolio-filters {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 50px;
+}
+.portfolio-filters li {
+display: inline-block;
+margin-right: 40px;
+font-size: 13px;
+font-weight: 400;
+text-transform: uppercase;
+cursor: pointer;
+}
+
+.portfolio-filters li:hover,
+.portfolio-filters li.active 
+{
+    color: #1345e6;
+}
+
+
+.portfolio-item__overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(19, 69, 230, 0.9);
+    visibility: hidden;
+    z-index: 1;
+}
+.portfolio-item__info {
+    position: absolute;
+    bottom: 44px;
+    left: 80px;
+color: white;
+visibility: hidden;
+z-index: 1;
+}
+.portfolio-item__info a {
+    color: white;
+    text-decoration: none;
+}
+.portfolio-item:hover .portfolio-item__overlay {
+    visibility: visible;
+    top: 20px;
+    left: 20px;
+}
+.portfolio-item:hover .portfolio-item__info {
+    visibility: visible;
+    bottom: 24px;
+    left: 60px;
+}
+
+
+
+/* Start of Portfolio section style */
+
+
+
+
+
+
+
+/*  End of Services section styles */
