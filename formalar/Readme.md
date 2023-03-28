@@ -4,27 +4,6 @@
 
 ## Formalar:
 
-Jadval bo'lib unda
-#label
+#Radio-button:
 
--   bu xossada biz jadvaga nom kiritamiz
-
-# input:
-
--   bu xosada jadvalni to'diramiz
-
-#Select:
-
--   bu xossa biz tanlash uchun select yaratamiz
-
-# textarea:
-
--   bu xossada biz foydalanuvchidan kattaroq ko'rinishdagi text berishni so'raydi
-
-# button:
-
--formani serverga jo'natish uchun ishlatiladigan tugma
-
-# Color pallatte:
-
--   bu dizaynlar tomonidan ishlatiladigan ranglar to'plami
+-   bu xossada biz bir necha variantlardan faqat birini tanlash imkoniyatini beruvchi form elementi
