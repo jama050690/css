@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Forma</title>
+        <link rel="stylesheet" href="forma.css" />
+    </head>
+    <body>
+        <div class="container">
+            <form action="/server.php" method="Get">
+                <label for="firstname">Ism</label>
+                <input
+                    type="text"
+                    id="firstname"
+                    name="firstname"
+                    placeholder="ismingiz"
+                />
+                <label for="Surname">Familya</label>
+                <input
+                    type="text"
+                    id="Surname"
+                    name="Surname"
+                    placeholder="familyangiz"
+                />
+                <label for="country">Davlat</label>
+                <select name="country" id="country">
+                    <option value="O'zbekiston">O'zbekiston</option>
+                    <option value="Rossiya">Rossiya</option>
+                    <option value="Xitoy">Xitoy</option>
+                    <option value="Aqsh">Aqsh</option>
+                </select>
+                <label for="message">Xabar</label>
+                <textarea
+                    name="message"
+                    id="message"
+                    placeholder="xabaringiz"
+                ></textarea>
+                <button type="submit" class="button">Jo'natish</button>
+            </form>
+        </div>
+    </body>
+</html>
