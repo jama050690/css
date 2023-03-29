@@ -1,7 +1,7 @@
 .container {
     padding: 30px;
 }
-/* Radio button uchun container
+/* Radio button uchun container*/
 .form-control {
     display: block;
     position: relative;
@@ -10,10 +10,46 @@
     cursor: pointer;
     font-size: 24px;
 }
-
-/* Braserning radio buttonini berkitish uchun berkitish
+/* Brauzerning radio buttonni berkitish*/
 .form-control input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
-}*/
+}
+/*Maxsus radio buttunga style berish*/
+.custom-radio {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 24px;
+    width: 24px;
+    background-color: #ddd;
+    border-radius: 50%;
+
+}
+/* Sichqoncha olib borilganda orqa fon rangini o'zgartirish*/
+.form-control:hover input ~ .custom-radio {
+    background-color: #ccc;
+}
+/*Radio button tanlanganda, uning orqa fon rangini o'zgartirish*/ 
+.form-control input:checked ~ .custom-radio {
+    background-color: #20846E;
+}
+/* Radio buttun tanlanganligini bildiruvchi belgi yaratish*/
+.custom-radio:after {
+    top: 8px;
+    left: 8px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+    content: "";
+    position: absolute;
+    display: none;
+}
+/* Tanlangan paytida belgini ko'rsatish*/
+.form-control input:checked ~ .custom-radio:after {
+    display: block;
+} 
+
+
