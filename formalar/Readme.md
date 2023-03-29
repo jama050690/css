@@ -4,6 +4,6 @@
 
 ## Formalar:
 
-#Radio-button:
+##Checkbox
 
--   bu xossada biz bir necha variantlardan faqat birini tanlash imkoniyatini beruvchi form elementi
+-   bu xossada biz bir necha variantni tanlash imkoni beradi.

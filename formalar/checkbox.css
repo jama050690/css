@@ -1,0 +1,50 @@
+/* Checkbox uchun container*/
+.form-control {
+    display: block;
+    position: relative;
+    padding-left: 36px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 24px;
+
+}
+/* Brauzerning Checkboxini berkitish*/
+.form-control input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+/* Maxsus chexbox style berish */
+.custom-checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background-color: #ddd;
+}
+/* Sichqoncha olib borilganda orqa fon rangini o'zgartirish*/
+.form-control:hover input ~ .custom-checkbox {
+    background-color: #ccc;
+}
+/* checkbox tanlanganda, uning orqa fon rangini o'zgartirish*/
+.form-control input:checked ~ .custom-checkbox {
+    background-color: #20846E;
+}
+/* Checkbox tanlanganligini bildiruvchi belgi yaratish*/
+.custom-checkbox:after {
+    top: 8px;
+    left: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    content: "";
+    position: absolute;
+    display: none;
+}
+/* Tanlangan paytida belgini ko'rsatish*/
+.form-control input:checked ~ .custom-checkbox:after {
+    display: block;
+}
