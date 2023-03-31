@@ -1,0 +1,28 @@
+/*.fixed-box {
+position: fixed;
+width: 50%;
+height: 200px;
+background-color: red;
+}
+.positioned-box{
+    position: relative;
+    width: 800px;
+    padding: 50px;
+    background-color: red;
+}
+.absolute-box {
+    position: absolute;
+    width: 50%;
+    background-color: yellow;
+}
+*/
+.block-box {
+    width: 800px;
+    padding: 50px;
+    background-color: red;
+}
+.relative-box {
+    position: relative;
+    width: 50%;
+    background-color: yellow;
+}

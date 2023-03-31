@@ -1,0 +1,16 @@
+# CSS Kurs
+
+## Kursda CSS bilim va ko'nikmalari olinadi.
+
+## Formalar:
+ 
+ #Percentage (Foiz) units:
+
+ - bu xossa position xosasining qiymatiga qarab o'zgaradi. Ya'ni foiz o'lchov birligi "position"ning bir qiymati uchun esa umuman boshqa natija baradi.
+
+# Position fixed:
+ - bu xossada position fixed qiymatga ega bo'lganida, biz ko'rsatgan foiz qiymatimiz "viewport"ga nisnbatan o'lchamga ega bo'ladi.
+# Position Absoute:
+- Position xossasi absolute qiymatiga ega bo'lgan payti,biz ko'rsatilgan foiz qiymatimiz eng yaqin positioned avlodining content va padding qiymatilarini yig'indisiga (content + padding) nisbatan o'lchamga ega bo'ladi.
+# Position xossasi:
+- position xossasi static yoki relative qiymatiga ega bo'lgan payti,biz ko'rsatilgan foiz qiymatimiz eng yaqin block turidagi avlodning content qiymatiga nisbatan o'lchamga ega bo'ladi.
