@@ -1,0 +1,7 @@
+# CSS Kurs
+
+## Kursda CSS bilim va ko'nikmalari olinadi.
+
+## Formalar:
+# Rem:
+- bu xossa o'lchov birligi bo'lib,sahifamizning root(ildiz) elementining font-size xossasiga asoslanib hisoblanadi.Root elementi bu html elementimizdir. Odatda html elementimiz 16px font qiymatiga ega bo'ladi.
