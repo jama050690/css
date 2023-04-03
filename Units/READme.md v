@@ -1,0 +1,17 @@
+# CSS Kurs
+
+## Kursda CSS bilim va ko'nikmalari olinadi.
+
+## UNITS:
+#VIEWPORT:
+- bu ekranimizda ko'rinadigan browser qismi(kenglik).VIEWPORT note-booklarda boshqa kenglikda va telefonlarda boshqa kenglikda bo'ladi.
+# VIEWPORT (width vw):
+- "viewport"ning to'liq kengligiga nisbatan hisoblanadi. Masalan.10vw "viewport"ning 10%.20vw esa 20% kwngligiga ega bo'ladi.
+# Foiz va VW farqi:
+- bu xossalarning bir biridan farqi shundaki, foiz bu u joylashgan elementga nisbatan ya'ni ota - ona (oarent) yoki ajdod (ancestor) elementlarga nisbatan o'lchanadi. VW wsa faqatgina brauzerimizning viewport kengligiga nisbatan o'lchanadi.
+#Viewport height(vh)
+- block sahifani to'liq balandligini egallash uchun ishlatiladi. 
+# Viewport Minumum (vmin):
+- "viewport"ning to'liq balandligi va kengligidan eng kichigiga nisbatan hisoblanadi. Masalan, 10vmin "viewport"ning balandli va kengligidan eng kichigining 10%ga nisbatan o'lchanadi.
+# Viewport Maximum (vmax):
+- "viewport"ning to'liq balandligi va kengligidan eng kattasiga nisbatan hisoblanadi. Masalan, 10vmin "viewport"ning balandli va kengligidan eng kattasining 10%ga nisbatan o'lchanadi.
