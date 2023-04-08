@@ -20,14 +20,14 @@ body {
 .section-subtitle {
     letter-spacing: 2px;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem; /* 10 / 16=0.625 rem */
     color: #797979;
     text-transform: uppercase;
 
 }
 .section-title {
-    margin-top: 5px;
-    font-size: 42px;
+    margin-top: 5px; /* 5 / 16= 0.32rem */
+    font-size: 42px; /* 42 / 16= 2.62 rem */
     font-weight: 700;
     text-transform: capitalize;
     color: #05364d;
@@ -38,8 +38,8 @@ body {
     background-size: 200% auto;
     color: #FFFF;
     font-weight: 500;
-    font-size: 14PX;
-    padding: 20PX 40PX;
+    font-size: 0.87rem; /* 14 / 16= 0.87 rem */
+    padding: 1.26rem 2.5rem; /* 1)20/16=1.26 rem 2) 40 / 16=2.5rem */ 
     cursor: pointer;
     border-radius: 5px;
 }
@@ -89,14 +89,14 @@ body {
 
 .main-navigation__item {
     display: inline-block;
-    padding: 10px;
+    padding: 10px; /* 10 / 16=0.625rem */ 
 }
 
 .main-navigation__item a {
     color: #05364d;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 0.75rem; /* 12 / 16=0.75rem */
     font-weight: 500px;
 }
 
