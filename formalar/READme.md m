@@ -1,7 +1,0 @@
-# CSS Kurs
-
-## Kursda CSS bilim va ko'nikmalari olinadi.
-
-## Formalar:
-# Em :
-- o'lchov birligi bo'lib, elementimizning font-size xossasiga asoslanib hisoblanadi. Agar elementlarimizning font-size xossasi bo'lmasa, u ota - ona (parent) elementning font - size qiymati, unda ham bo'lmasa keyingi ajdodning (ancestor) font-size qiymatiga asoslanadi.

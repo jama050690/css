@@ -1,0 +1,62 @@
+/* MIN-WIDTH UCHUN MISOLLAR (BU MOBILE QURILMALAR UCHUN)600PX GACHA*/
+/*.box {
+    width: 500px;
+    height: 400px;
+    background-color: red;
+}
+/* media so'rovlar asosiy styledan keyin kelishi kerak
+@media only screen and (min-width: 600px) {
+   .box {
+    background-color: green;
+   } 
+} */
+/* bir nechta media so'rovlar min-width uchun
+.box {
+    width: 500px;
+    height: 400px;
+    background-color: red;
+}
+/* 600px dan boshlab 
+@media only screen and (min-width: 600px) {
+    .box {
+        background-color: green;
+    }
+}
+/* 900px dan boshlab 
+@media only screen and (min-width: 900px) {
+    .box {
+        background-color: blue;
+    }
+} */
+/* MAX-WIDTH UCHUN MISOLLAR (NOTE-BOOK VA PLANSHETLAR UCHUN)
+
+.box {
+    width: 500px;
+    height: 400px;
+    background-color: red;
+}
+/* media so'rovlar asosiy styledan keyin kelishi kerak 
+@media only screen and (max-width: 600px) {
+   .box {
+    background-color: green;
+   } 
+} */
+
+/* bir nechta media Max-width uchun so'rovlar */
+.box {
+    width: 500px;
+    height: 400px;
+    background-color: red;
+}
+/* 900px dan boshlab */
+@media only screen and (max-width: 900px) {
+    .box {
+        background-color: green;
+    }
+}
+/* 600px dan boshlab */
+@media only screen and (max-width: 600px) {
+    .box {
+        background-color: blue;
+    }
+}
