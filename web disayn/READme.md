@@ -14,12 +14,12 @@
 
 X-Small: (None) < 576px;
 
-Small; (sm) \_> 576px;
+Small; (sm) _> 576px;
 
-Medium; (md) \_> 768px;
+Medium; (md) _> 768px;
 
-Large; (lg) \_> 992px;
+Large; (lg) _> 992px;
 
-Extra large; (xl) \_> 1200px;
+Extra large; (xl) _> 1200px;
 
-Extra extra large;(xxl) \_> 1400px;
+Extra extra large;(xxl) _> 1400px;
