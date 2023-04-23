@@ -6,35 +6,20 @@
 
 # Responsive Web Desiyn(RWD):
 
-## Media quereier(media so'rovlar):
+## Breakpoints:
 
-# Mobile first:
+-   qurilmamizning kengligiga qarab veb sahifamiz o'z kontenti o'zgartiruvchi nuqtalar.Bu nuqtalarda,veb sahifamiz odatda boshqa ko'rinishga o'tib,qurilmaga moslashadi.Ular yana media query breakpoints deb ham ataladi chunki ular media queris bilan birga ishlatadi.
 
--   veb sahifamizni birinchi bo'lib mobil qurilmalar uchun yaratib, keyin kattaroq ekranlarga moslashtrishga aytiladi.
+##Breakpoints typs;
 
-# Desktop first:
+X-Small: (None) < 576px;
 
--   veb sahifamizni birinchi katta ekranga ega bo'lgan qurilmalar uchun yaratib,keyin kichikroq ekranlar uchun moslashtrish. "Mobile first" ni aksi hisoblanadi.
-    ##Media querier (Media so'rovlar) :
--   kontentimiz ma'lum bir shartlarga ko'ra moshlashtrish. Masalan, shart deb qurilmamiz ekran o'lchovini ma'lum bir pixeldan katta yoki kichkina bo'lishini misol qilishimiz mumkin.
+Small; (sm) \_> 576px;
 
-Media querierni umimiy ko'rinishi:
-@media nol/only media-turi and (ifodalar) {
-// CSS kodlarimiz
-}
+Medium; (md) \_> 768px;
 
-## Media turlari:
+Large; (lg) \_> 992px;
 
-All: hamma media device (qurilmalar) uchun.
-Screen: kompyuter ekranlari,planshetlar,mobile qurilmalar va h.k
-Print: printerlar uchun.
+Extra large; (xl) \_> 1200px;
 
-# Ifodalar:
-
-Min-width:
-
--   bu ifoda ekranning kengligi ko'rsatilgan qiymatga teng yoki katta bo'lgan holatdagina ishlaydi.
-
-## MAX-WIDTH:
-
--   bu qoida ekraning kengligi ko'rsatilgan qiymatga teng yoki kichik bo'lgan holatdagina ishlaydi. "Min-width" ning aksi hisoblanadi.
+Extra extra large;(xxl) \_> 1400px;
