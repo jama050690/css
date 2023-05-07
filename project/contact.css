@@ -1,0 +1,39 @@
+/* Start of Contact section styles*/
+.contact { 
+    padding: 6.25rem; /* 100 / 16 = 6.25 */
+}
+textarea, input {
+    width: 100%;
+    padding: 0.87rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    border: 1px solid #f0e9ff;
+    border-radius: 5px;
+    padding-left: 1.12rem;
+    font-size: 0.81rem;
+    background: transparent;
+    color: #495057;
+    box-sizing: border-box;
+}
+
+.textarea:focus, input:focus {
+    outline: 0;
+}
+.half-row {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    
+}
+.contact__firstname {
+    padding-right: 0.93rem;
+}
+.contact__email {
+    padding-left: 0.93rem;
+}
+.contact__send {
+    margin-top: 1.87rem;
+}
+/* End of Partners section styles*/
+
+
