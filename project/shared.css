@@ -167,11 +167,12 @@ body {
     .main-navigation {
         display: none;
     }
-}
+
 
 /* Footer-navigation section  for smartfon stly start */
 .footer__navigation {
     display: none;
+}
 }
 
 /* Footer section  for smartfon stly end */

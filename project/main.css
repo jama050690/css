@@ -501,12 +501,16 @@ color: #797979;
     }
     .main-section > div {
         width: 100%;
+        
     }
-}
+    .main-section__introduction {
+        font-size: 3rem;
+    }
+
  /* Main section  for smartfon stly end */
 
   /* Statistic section  for smartfon stly start */
-.statistics_item {
+.statistics__item {
     width: 100%;
     margin-bottom: 20px; 
     margin-right: 0;
@@ -587,6 +591,7 @@ float: none;
     text-align: center;
     margin-bottom: 10px;
 
+}
 }
 
 /* Partners section  for smartfon stly end */
