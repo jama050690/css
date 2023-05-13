@@ -485,6 +485,17 @@ color: #797979;
     display: inline-block;
     padding: 0 0.87rem; /* 13 / 16 = 0.87rem */
  }
+ @media only screen and (max-width: 991px) {
+    /*main-section*/
+
+    .main-section__image {
+        display: none;
+    }
+    .main-section > div {
+        width: 100%;
+        
+    }    
+ }
 
 /* End of Partners section styles*/
 @media only screen and (max-width: 767px) {
@@ -493,16 +504,11 @@ color: #797979;
         background: none;
         min-height: auto;
     }
-    .main-section__image {
-        display: none;
-    }
+
     .main-section__action {
         display: none;
     }
-    .main-section > div {
-        width: 100%;
-        
-    }
+    
     .main-section__introduction {
         font-size: 3rem;
     }
