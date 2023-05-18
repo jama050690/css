@@ -36,4 +36,11 @@ textarea, input {
 }
 /* End of Partners section styles*/
 
+@media only screen and (max-width: 991px) {
+    .half-row {
+        width: 100%;
+}
+.contact__firstname,.contact__email {
+    padding: 0;
+}
 

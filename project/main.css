@@ -494,9 +494,74 @@ color: #797979;
     .main-section > div {
         width: 100%;
         
+    }
+    /* Statistic section  for smartfon stly start */
+
+    .statistics {
+        padding: 1 rem;
+        text-align: center;
     }    
+/* Statistic section  for smartfon stly end */
+
+/* About me section  for smartfon stly start */
+.about-me {
+    padding: 1.5rem 0;
+}
+  .about-me > div {
+    width: 100%;
+}
+.about-me__image img {
+    display: none;
+}
+
+    /* About me section  for smartfon stly end */
+
+  /* Servises  section  for smartfon stly start */
+  .services {
+    padding: 1.5rem 0;
+}
+.service-card {
+    width: 45%;
+    margin-bottom: 20px;
+}
+/* Clients section  for smartfon stly start */
+
+.clients {
+    padding: 1.5rem 0;
+}
+.client-item > div {
+width: 100%;
+float: none;
+}
+
+/* Clients  section  for smartfon stly end */
+
+
+/* Blog section  for smartfon stly start */
+.blog {
+    padding: 1.5rem 0;
+}
+.blog-item {
+    width: 45%;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+/* Blog section  for smartfon stly end */
+
+.partners {
+    padding: 1.5rem;
+}
+.partner {
+    display: block;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
  }
 
+ 
 /* End of Partners section styles*/
 @media only screen and (max-width: 767px) {
     /* Main section  for smartfon stly start */
@@ -515,8 +580,9 @@ color: #797979;
 
  /* Main section  for smartfon stly end */
 
-  /* Statistic section  for smartfon stly start */
-.statistics__item {
+/* Statistic section  for smartfon stly start */
+  
+  .statistics__item {
     width: 100%;
     margin-bottom: 20px; 
     margin-right: 0;
@@ -525,25 +591,8 @@ color: #797979;
 
   /* Statistic section  for smartfon stly end */
 
-
-  /* About me section  for smartfon stly start */
-.about-me {
-    padding: 1.5rem 0;
-}
-  .about-me > div {
-    width: 100%;
-}
-.about-me__image img {
-    display: none;
-}
-  
-  /* About me section  for smartfon stly end */
-
-
   /* Servises  section  for smartfon stly start */
-.services {
-    padding: 1.5rem 0;
-}
+
   .service-card {
     width: 100%;
     margin-right: 0;
@@ -552,17 +601,6 @@ color: #797979;
 
 /* Servises  section  for smartfon stly end */
 
-/* Clients section  for smartfon stly start */
-
-.clients {
-    padding: 1.5rem 0;
-}
-.client-item > div {
-width: 100%;
-float: none;
-}
-
-/* Clients  section  for smartfon stly end */
 
 /* Portfolio section  for smartfon stly start */
 .portfolio-item {
@@ -575,29 +613,8 @@ float: none;
 
 /* Portfolio section  for smartfon stly end */
 
-/* Blog section  for smartfon stly start */
-.blog {
-    padding: 1.5rem 0;
-}
-.blog-item {
-    width: 100%;
-    margin-right: 0;
-    margin-bottom: 20px;
-}
-
-/* Blog section  for smartfon stly end */
-
 /* Partners section  for smartfon stly start */
-.partners {
-    padding: 1.5rem;
-}
-.partner {
-    display: block;
-    padding: 0;
-    text-align: center;
-    margin-bottom: 10px;
 
-}
 }
 
 /* Partners section  for smartfon stly end */
