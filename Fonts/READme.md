@@ -22,3 +22,13 @@ Cursive:
 Fantasy:
 
 -   Dekarativ (yasatilgan) fantaziya ko'rinishiga ega bo'lgan shriftlar. (Copperplate, Papyurs)
+
+###Fonts Formats:
+
+    - TTF-Ko'p brauzerlar qo'llab quvvatlaydi.
+
+    -WOff-"TTF"ga qaraganda ko'proq brauzerlar qo'llab quvvatlaydi.Fayl hajmi ham kichikroq.
+
+    -WOFF 2.0 WOFF-ning siqilgan formati bo'lib,undan ham kamroq hajmga ega bo'ladui.Lekin Woffga qaraganda kamroq brazerlar qo'llab quvvatlaydi.
+
+    -BOT- Juda kam sonli brauzerlar qo'llab quvvatlaydi.
