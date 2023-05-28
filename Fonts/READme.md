@@ -32,3 +32,43 @@ Fantasy:
     -WOFF 2.0 WOFF-ning siqilgan formati bo'lib,undan ham kamroq hajmga ega bo'ladui.Lekin Woffga qaraganda kamroq brazerlar qo'llab quvvatlaydi.
 
     -BOT- Juda kam sonli brauzerlar qo'llab quvvatlaydi.
+
+### Font xossalari:
+
+# Font style - matinimizni stilini belgilab beradi.
+
+## Qiymatlari:
+
+-   Normal:
+    matinizni odatiy normal ko'rinishda ekranga chiqaradi.
+-   Oblique: matinimizni oblique (qiya) ko'rinishga olib keladi va bu Italic qiymatiga deyarli o'xshash.
+-   Italic: Matinimizni Italic (qiyalangan) ko'rinishga olib keladi va font turi hisoblanadi.
+
+# Font weight - matinimizni qalinligini belgilaydi.
+
+## Qiymatlari:
+
+-   Normal: matinimizni odatiy (normal) qalinliklarga ega bo'ladi.
+
+-   Bold: matinimizni qalin ko'rinishga ega bo'ladi.
+
+-   Bolder: matinimizni qalinroq ko'rinishga ega bo'ladi.
+    -100,200,300,.....900 - matinimiz son qiymatlarida ko'tarilgan qalinliklarga ega bo'ladi. Normal 400 va bold - 700 qiymatlariga to'g'ri keladi.
+
+# Line-height - matinimizni qatorining balandligini belgilaydi. (line-box - qator balandligi) (line-height - vertikal balandlik) (content - area - harfling balandligi)
+
+## Qiymatlari:
+
+-Normal - matn qalinligi odatiy (normal) balandligiga ega bo'ladi.
+
+-   Son - ko'rsatilgan son hozirgi font o'lchamiga ko'paytiriladi va natija qatorning balandligi etib belgilanadi.
+-   Uzunlik(px,em,...) - ko'rsatilgan qiymat qatorimizning balandligini hisoblanadi.
+-   % - qatorimimzning balandligi hozirgi font o'lchamining foiz hisobidan aniqlanadi.
+
+## Letter-spacing-matinimizdagi simvollar orasidagi masofani belgilaydi.
+
+## Qiymatlari:
+
+-   Normal: - matndagi simvinlarimiz orasi(odatiy) normal masofaga ega bo'ladi.
+
+-Uzunlik(px,em..)- ko'rsatilgan qiymat simvollarimiz orasidagi masofa hisoblanadi.(-2px,4px, 2em)
