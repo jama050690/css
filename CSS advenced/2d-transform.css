@@ -1,0 +1,67 @@
+(2d)
+/* .box { 
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    transform: rotate(40deg);
+} 
+  (Rutate metod)
+.parents-box {
+    margin-top: 100px;
+    border: 5px solid blue;
+}
+.box{
+    height: 100px;
+    background-color: red;
+    transform: rotate(45deg);
+    transform-origin: top right;
+}
+
+
+(Tranlate metod)
+selector {
+    transform: translate (x-qiymat, y-qiymat);
+}
+.box {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    transform: (20px,40px);
+}
+*/
+/* (Scale,elementni qiyamatini oshirish(kattalashtrish) */
+/*selector {
+    transform: scale(x-qiymat, y-qiymat);
+}
+.box {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    transform: (2,3);
+} */
+/*(Scale,elementni qiyamatini kamaytrish(kichraytrish))*/
+/*selector {
+    transform: scale(x-qiymat, y-qiymat);
+}
+.box {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    transform: scale(0.5, 0.25);
+    transform-origin: left top;
+}
+*/
+/*(Skew,elementning ma'lum darajaga og'dirish)*/
+selector {
+    transform: skew(x-qiymat, y-qiymat);
+}
+.box {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    transform: skew(20deg,30deg);
+
+    }
+
+
+
