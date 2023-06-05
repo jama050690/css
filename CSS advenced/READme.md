@@ -37,3 +37,21 @@
 # Scale - elementimizni o'lchovni oshirish yoki kamaytrish uchun ishlatiladi.0 bilan 1 orasida berilgan qiymat uning o'lchovini kamaytiradi, 1 dan katta qiymat esa o'lchovini oshiradi.
 
 # Skew - elementimizni ma'lum bir darajaga (degree) ga og'dirish uchun ishlatiladi. Manfiy qiymat og'ish yo'nalishini teskari tomonga o'zgartiradi.
+
+### 3d:
+
+3d-geometrik model bo'lib elementimizning fazodagi joylashuvini aniqlash uchun 3 ta nuqtadan foydalaniladi.
+
+## 3d transforms-veb sahifamizdagi elementlarni uch o'lchovlik fazoda aylantrih,siljitish,o'lchovini o'zgartirish hisoblanadi.
+
+## 3d tranform uchun ishlatiladigan "metod" lar:
+
+# rotate3d(aylantrish)-elementni fazoda ko'rsatilgan qiymatlar bo'yicha aylantrish uchun ishlatiladi.
+
+# Perspective - element foydalanuvchidanqanday uzoqlikda turganini belgilab beradi.Qiymat qancha kichik bo'lsa,foydalanuvchi elementga shuncha yaqin bo'ladi.
+
+# translate3d(siljitish) - elementning fazoda ko'rsatilgan qiymatlar bo'yicha siljitish uchun ishlatiladi.
+
+# Scale - elementni fazoda ko'rsatilgan qiymatlar bo'yicha o'lchovini o'zgartirish uchun ishlatiladi.
+
+# scale3d(o'zgartirish) - elementni fazoda ko'rsatilgan qiytmatlar o'lchovini o'zgartirish uchun ishlatiladi.
