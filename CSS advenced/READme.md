@@ -55,3 +55,25 @@
 # Scale - elementni fazoda ko'rsatilgan qiymatlar bo'yicha o'lchovini o'zgartirish uchun ishlatiladi.
 
 # scale3d(o'zgartirish) - elementni fazoda ko'rsatilgan qiytmatlar o'lchovini o'zgartirish uchun ishlatiladi.
+
+### Transtion - elementimizning xossa qiymatlatlarini ko'rsatilgan vaqt davomida ravon o'zgarishini ta'minlaydi. Transition yaratish uchun unga ikki qiymat ko'rsatilishi shart effekt qo'shmoqchi bo'lgab ellementimiz xossasi va effektning davomiyligi. Effektimiz davomiyligi son ko'rinishidagi qiymatga ega bo'lib,o'lchov birligi s (soniya) yoki ms (millisoniya)larda ko'rsatilishi kerak.
+
+# ! Hamma CSS xossalari ham transtion effektiga ega bo'la olmaydi.Ko'rsatilgan havola orqali qaysi xossalarga transtion effektini ko'rsatish mumkin ekanligini bilib olishingiz mumkin.(Animatable Css properties(CSS Animation or CSS TRanstions))
+
+## Transtion timing function - effektimizni tezligi qanday egri chiziqga ega bo'lishini belgilab beradi.
+
+## Transtion timing functionning xossalari.
+
+# ESSE - effektimiz sekin boshlanib, keyin tezlashib va yana sekinlik bilan tugaydi.
+
+# Linear - effektimiz ko'rsatilgan vaqt davomida bir xil tezlikka ega bo'ladi.
+
+# ESSE-in - effektimizni sekin boshlanadi.
+
+# ESSE - out - effektimiz sekin tugaydi.
+
+# ESSE - in - out - effektimizni sekin boshlanadi va sekin tugaydi.
+
+# Cublic - bezeir(x,y,z,k) - cublic - beier funksiyasi orqali,ko'rsatilgan egri chiziq effektiga ega bo'ladi. x,y,z,k o'rniga qiymat ko'rsatiladi.
+
+## Transtion delay - effektimiz qachon boshlanishini (kechikishini) belgilab beradi. Son ko'rinishidagi qiymatga egab bo'lib, o'lchov birligini s (soniya) yoki ms (millisoniyallarda) ko'rsatilishi kerak.

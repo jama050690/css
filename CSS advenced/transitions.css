@@ -1,0 +1,95 @@
+/*selector-nomi {
+transition: xoss-1 davoimiyligi-1, xossa-2,davomiyligi-2, ...., xossa-n davomiyligi 
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: width 2s;
+
+}
+.box:hover {
+    width: 400px;
+
+}*/
+/*
+(Elementimizni hamma xossalari uchun transitoin olmoqchi bo'lsak All kalit so'zidan foydalanamiz)
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: width 2s, background-colour 4s;
+
+}
+.box:hover {
+    width: 400px;
+background-color: green;
+
+}
+*/
+/*
+( Sichqoncha olib borilganda hamma xossalarini ham ravon
+o'zgartiruvchi quti)
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: all 2s;
+}
+
+.box:hover {
+    width: 400px;
+background-color: green;
+}
+*/
+/*
+(Transtion-timing-function)
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-bottom: 20px;
+    transition: width 2s;
+}
+.box:hover {
+    width: 400px;
+}
+.esse {
+    transition-timing-function: esse ;
+}
+
+.linear {
+    
+    transition-timing-function: linear ;
+}
+.esse-in {
+    
+    transition-timing-function: esse-in ;
+}
+.esse-out {
+    
+    transition-timing-function: esse-out ;
+}
+.esse-in-out {
+    
+    transition-timing-function: esse-in-out ;
+}
+.cublic-beeir {
+    
+    transition-timing-function: cublic-bezeir (0.25, 0.1, 0.19, 1.46); 
+}*/
+/*(Transtion delay)*/
+.selector-nomi {
+    transtion: . . .;
+    transtion-delay: kechikish davomiyligi(soniya yoki millisoniya)
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: width 2s;
+    transition-delay: 2s;
+}
+.box:hover {
+    width: 400px;
+}
