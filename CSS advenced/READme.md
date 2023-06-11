@@ -77,3 +77,48 @@
 # Cublic - bezeir(x,y,z,k) - cublic - beier funksiyasi orqali,ko'rsatilgan egri chiziq effektiga ega bo'ladi. x,y,z,k o'rniga qiymat ko'rsatiladi.
 
 ## Transtion delay - effektimiz qachon boshlanishini (kechikishini) belgilab beradi. Son ko'rinishidagi qiymatga egab bo'lib, o'lchov birligini s (soniya) yoki ms (millisoniyallarda) ko'rsatilishi kerak.
+
+### CSS Animations:
+
+# CSS Animations- elementni bir "style"dan boshqa "style"ga asta-sekinlik bilan o'tishini ta'minlaydi. Animation istalgan CSS xossani istalgan marta o'zgartrish imkonini beradi.
+
+## Animation yaratish uchun ishlatiladigan CSS xossalari va qoidasi:
+
+-   @keyframes
+-   animation-name
+-   animation-duration
+-   animation-delay
+-   animation-iteration-count
+-   animation-direction
+-   animation-timing-function
+-   animation- fill-mode
+-   animation-play-state
+-   animation
+
+## @keyframes-animatsiya stillarni qaysi qiymatga o'zgartrishni belgilab beradi.
+
+@keyframes animatsiya-nomi {
+keyframe-interval-1 {
+xossa-1: qiymat-1:
+xossa-2: qiymat-2:
+....
+xossa-n: qiymat-n:
+}
+}
+keyframes-intervali-n {
+xossa-1: yangi qiymat-1:
+xossa-2: yangi qiymat-2:
+...
+xossa-n: yangi qiymat - n:
+
+}
+
+# Animatsiyamizga xoxlagan nomimizni bersak bo'ladi. Keyframe interval uchun esa 0-100% ga bo'lgan qiymatlarni ko'rsatib o'tishimiz mumkin. 0 dan 100% from va to kalit so'zlaridan foydalanishimiz mumkin.
+
+## Animation name-elementimiz ega bo'ladigan animatsiya nomi @keyframe uchun ko'rsatilgan animatsiya nomi qiymat ko'rinishida ishlatiladi.
+
+## Animation duration - animatsiyani qanday davomiylikga ega bo'lishini belgilab beradi. Son ko'rinishidagi qiymatga ega bo'lib,o'lchov birligi s (soniya) ms(millisoniya)larda ko'rsatilishi kerak.
+
+# Animation delay-animatsiyamiz qachon boshlanishini (kechikishini) boshlab beradi. Son ko'rinishidagi qiymatga ega bo'lib,o'lchov birligi s(soniya) yoki ms(millisoniya)larda ko'rsatilishi kerak.
+
+# Animation iteration count - animatsiyamiz necha marta qaytarilishini belgilab beradi. Default qiymkati 1ga teng.

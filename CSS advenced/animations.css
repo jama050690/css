@@ -1,0 +1,111 @@
+/* (Keyframes animatsiyasiga misol)
+@keyframes box-mover {
+    0% {
+        left: 0;
+        background-color: red;
+        width: 200px;
+
+    }
+    100% {
+        left: 500px;
+        background-color: green;
+        width: 400px;
+    }
+}
+*/
+/* (bir necha keyframes animationsiyasiga misol)
+@keyframes box-mover {
+    0% {
+        top: 0;
+        left: 0;
+        background-color: red;
+
+    }
+    50% {
+        top: 0;
+        left: 500px;
+        background-color: green;
+    }
+    100% {
+        top: 500px;
+        left: 500px;
+        background-color: yellow;
+
+    }
+}
+*/
+/* (Animatsiya bilan @keyframes ni elementimizda ishlatish)
+@keyframes box-mover {
+    from {
+        left: 0;
+        background-color: red;
+        width: 200px;
+
+    }
+    to {
+        left: 500px;
+        background-color: green;
+        width: 400px;
+    }
+}
+.box {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: red;
+    color: white;
+    animation-name: box-mover;
+    animation-duration: 4s;
+
+}
+*/
+/* (Animation delay ni keyframe da ishlatilishi)
+@keyframes box-mover {
+    0% {
+        left: 0;
+        background-color: red;
+        width: 200px;
+
+    }
+    100% {
+        left: 500px;
+        background-color: green;
+        width: 400px;
+    }
+}
+.box {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: red;
+    color: white;
+    animation-name: box-mover;
+    animation-duration: 4s;
+    animation-delay: 2s;
+
+*/
+/* (AnimATION - ITERATION-COUNT ) */
+@keyframes box-mover {
+    0% {
+        left: 0;
+        background-color: red;
+        width: 200px;
+    }
+    100% {
+        left: 500px;
+        background-color: green;
+        width: 400px;
+    }
+}
+.box {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: red;
+    color: white;
+    animation-name: box-mover;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+
+}
