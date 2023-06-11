@@ -84,7 +84,7 @@
     animation-delay: 2s;
 
 */
-/* (AnimATION - ITERATION-COUNT ) */
+/* (AnimATION - ITERATION-COUNT ) 
 @keyframes box-mover {
     0% {
         left: 0;
@@ -108,4 +108,160 @@
     animation-delay: 2s;
     animation-iteration-count: 2;
 
+}
+*/ 
+/* (animation direction)
+
+@keyframes box-mover {
+    0% {
+        left: 0;
+        background-color: red;
+        width: 200px;
+    }
+    100% {
+        left: 500px;
+        background-color: green;
+        width: 400px;
+    }
+}
+.box {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: red;
+    color: white;
+    animation-name: box-mover;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+}
+
+*/
+/*
+(Animation timing function)
+
+@keyframes box-mover {
+    0% {
+        left: 0;
+        background-color: red;
+        width: 200px;
+    }
+    100% {
+        left: 500px;
+        background-color: green;
+        width: 400px;
+    }
+}
+.box {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: red;
+    color: white;
+    animation-name: box-mover;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in;
+
+}
+*/
+/*
+(Animation fill mode)
+
+@keyframes box-mover {
+    0% {
+        left: 0;
+        background-color: red;
+        width: 200px;
+    }
+    100% {
+        left: 500px;
+        background-color: green;
+        width: 400px;
+    }
+}
+.box {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: red;
+    color: white;
+    animation-name: box-mover;
+    animation-duration: 4s;
+animation-fill-mode: both;
+animation-delay: 5s;
+
+}
+*/
+/* (Animation play state)
+
+@keyframes box-mover { 
+    0% {
+        left: 0;
+        background-color: red;
+        width: 200px;
+    }
+    100% {
+        left: 500%;
+        background-color: gree;
+        width: 400px;
+    }
+
+}
+.box {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: red;
+    color: white;
+    animation-name: box-mover;
+    animation-duration: 4s;
+
+}
+.box:hover {
+    animation-play-state: paused;
+}
+*/
+/*
+(Animation)*/
+
+
+@keyframes box-mover { 
+    0% {
+        left: 0;
+        background-color: red;
+        width: 200px;
+    }
+    100% {
+        left: 500%;
+        background-color: gree;
+        width: 400px;
+    }
+
+}
+.box {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: red;
+    color: white;
+    /*
+    animation-name: box-mover;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;*/
+    animation: box-mover 4s linear 2s 2 alternate backwards running;
+
+
+
+
+
+}
+.box:hover {
+    animation-play-state: paused;
 }

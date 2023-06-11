@@ -122,3 +122,43 @@ xossa-n: yangi qiymat - n:
 # Animation delay-animatsiyamiz qachon boshlanishini (kechikishini) boshlab beradi. Son ko'rinishidagi qiymatga ega bo'lib,o'lchov birligi s(soniya) yoki ms(millisoniya)larda ko'rsatilishi kerak.
 
 # Animation iteration count - animatsiyamiz necha marta qaytarilishini belgilab beradi. Default qiymkati 1ga teng.
+
+# Animation direction-animatsiya odinga (forwards),orqaga (backwards) yoki almashish (alremate) qo'yilishini belgilab beradi.
+
+# normal - animatsiya oldinga qarab qo'yiladi.
+
+# Reverse - animatsiya orqaga qarab qo'yiladi.
+
+# Alternate- aniamtiya birinchi oldinga keyin orqaga qarab qo'yiladi(qiymat animation-iteration-count 1 dan katta bo'lganda).
+
+# Alternate - reverse - Animatsiya birinchi orqaga keyin esa oldinga qarab qo'yiladi.
+
+## Animation timing function-animatsiya tezligi qanday egri chiziqga ega bo'lishini belgilab beradi.
+
+# esse-animatsiya sekin boshlanib,keyin tezlashib va yana sekinlik bilan tugaydi.
+
+# linear - anmatsiya ko'rsatilgan vaqt davomida bir hil tezlikga ega bo'ladi.
+
+# esse-in - animatsiya sekin boshlanadi.
+
+# esse-out- animatsiya sekin tugaydi.
+
+# esse-in-out - animatsiya sekin boshlanadi va sekin tugaydi.
+
+# cublic-bezier(x,y,z,k)-Cublic-bezier funksiyasi orqali, ko'rsatilgan egri chiziq animatsiyasiga ega bo'ladi(x,y.z.k) o'rniga qiymat ko'rsatiladi.
+
+## Animation fill mode -animatsiya boshlanishidan oldin va tugagandan so'ng elementimiz o'zining oldingi xossalariga eg bo'ladi lekin quyidagi xossa orqali, bu holatni o'zgartirish mumkin.
+
+# none(default(oldingi xossasi)) - animatsiya tugaganidan e=keyin elementning oldingi xossalariga tasir qilmaydi.
+
+# forwards - element animatsiyaning oxirgi keyframe intervali tomonidan ko'rsatilgan xossalarga ega bo'ladi.
+
+# backwords-element animatsiyaning birinchi keyframe interval tomonidan ko'rsatilgan xossalirga ega bo'ladi.
+
+# both - elemetnt animatsiyaning birinchi va oxirgi keyframe interval tomonidan ko'rsatilgan xossalriga ega bo'ladi.
+
+## Animation play state-nimatsiya qanday holatda ekanini belgilab beradi. Uning 2 qiymati mavjud: running (animatsiya davom etayotgan holat) va paused (animatsiya to'xtatib qo'yilgan holat)
+
+## Animation-animatsiyaga tegishli bo'lgan xossalar uchun qisqartma(shorthand).
+
+animation: name duration timing - function delay iteration-count fill-mode direction,play-state]
