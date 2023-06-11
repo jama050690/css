@@ -194,6 +194,14 @@ body {
     font-family: sans-serif;
 
 }
+a {
+    transition: all 0.3s ease-in-out;
+}
+button {
+    font-family: inherit;
+    transition: all 0.3s ease-in-out;
+
+}
 
 .container {
     width: 1130px;
