@@ -1,0 +1,39 @@
+/*(Flex container)
+body {
+    font-family: sans-serif;
+}
+.flex-container {
+    display: flex;
+    padding: 20px;
+    background-color: #025955;
+    border-radius: 10px;
+
+}
+.flex-item {
+    padding: 60px 15px;
+    background-color: #fde8cd;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+}
+*/
+/*(Flex items)*/
+body {
+    font-family: sans-serif;
+}
+.flex-container {
+    display: flex;
+    padding: 20px;
+    background-color: #025955;
+    border-radius: 10px;
+
+}
+.flex-item {
+    padding: 60px 15px;
+    background-color: #fde8cd;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
