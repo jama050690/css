@@ -1,0 +1,84 @@
+/*(Flex-direction)
+body {
+    font-family: sans-serif;
+}
+.flex-container {
+    display: flex;
+    padding: 20px;
+    background-color: #025955;
+    border-radius: 10px;
+    flex-direction: column-reverse;
+}
+.flex-item {
+    padding: 60px 15px;
+    background-color: #FDE8CD;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+}
+*/
+/*(Flex-wrap)
+body {
+    font-family: sans-serif;
+}
+.flex-container {
+    display: flex;
+    padding: 20px;
+    background-color: #025955;
+    border-radius: 10px;
+    flex-wrap: wrap-reverse ;
+}
+.flex-item {
+    padding: 60px 15px;
+    background-color: #FDE8CD;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+*/
+/*(Flex flow)
+body {
+    font-family: sans-serif;
+}
+.flex-container {
+    display: flex;
+    padding: 20px;
+    background-color: #025955;
+    border-radius: 10px;
+  /*flex-direction: row;
+    flex-wrap: nowrap;*/
+    /*flex-flow: column wrap-reverse;
+
+}
+.flex-item {
+    padding: 60px 15px;
+    background-color: #FDE8CD;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+}
+*/
+/*(Justify-content*/
+body {
+    font-family: sans-serif;
+}
+.flex-container {
+    display: flex;
+    padding: 20px;
+    background-color: #025955;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    /*flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: column wrap-reverse;*/
+
+}
+.flex-item {
+    padding: 60px 15px;
+    background-color: #FDE8CD;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+}
+

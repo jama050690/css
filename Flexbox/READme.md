@@ -43,3 +43,45 @@
 -   flex-basis
 -   flex
 -   align-self
+
+# Flex-direction - asosiy o'qning yo'nalishini belgilab beradi va flex items shu o'qga nisbatan joylashganligi uchun, ularning ham yo'nalishi belgilanadi.
+
+# flex-directioning xossalri:
+
+# Row-elementlarimiz chapdan o'ngga qarab joshlashadi.
+
+# Row-reverse - elementlarimiz o'ngdan chapga qarab joylashadi.
+
+# Column- elementlarimiz tepadan pastga qarab joylashadi.
+
+# Column-reverse - elementlarimiz pastdan tepaga qarab joylashadi.
+
+---
+
+# Flex-wrap - odatda flex elementlarimiz bilan liniyada joylashadi.
+
+# Flex-wrapning xossalari:
+
+# Wrap-elementlar tepadan pastga bir necha liniyaga bo'linib joylashadi.
+
+# Wrap-reverse-elementlar pastdan tepaga bir necha liniyaga olib joylashadi.
+
+---
+
+# Flex flow-flex direction va flex wrap xossalari uchun qisqartma hisoblanadi.
+
+# Justify content - asosiy o'qi bo'ylab elementlarni joylashuvini belgilaydi va qo'shimcha bo'sh joyni taqsimlashga yordam beradi.
+
+# Justify contentning xossalari:
+
+flex-start-elementlarimiz flex connatiner boshida joylashadi.
+
+flex-end-elementlarimiz flex connatiner oxirida joylashadi.
+
+center-elementlarimiz flex connatiner markazida joylashadi.
+
+space-between-elementlarimiz flex connatiner bo'yicha teng taqsimlanadi. Birinchi elementimiz container boshida,oxirgi elementimiz esa container oxirida joylashadi.
+
+spasce-around-elementlarimiz flex connatiner bo'yicha teng taqsimlanadi va har bir element atrofida teng masofa bo'ladi.Faqatgina birinchi,oxirgi element va container chegralari orasidagi masofa boshqa masofalardan farq qiladi.
+
+space-evenly-elementlarimiz flex connatiner bo'yicha teng taqsimlanadi va har bir element atrofida teng masofa bo'ladi
