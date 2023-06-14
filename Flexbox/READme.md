@@ -85,3 +85,35 @@ space-between-elementlarimiz flex connatiner bo'yicha teng taqsimlanadi. Birinch
 spasce-around-elementlarimiz flex connatiner bo'yicha teng taqsimlanadi va har bir element atrofida teng masofa bo'ladi.Faqatgina birinchi,oxirgi element va container chegralari orasidagi masofa boshqa masofalardan farq qiladi.
 
 space-evenly-elementlarimiz flex connatiner bo'yicha teng taqsimlanadi va har bir element atrofida teng masofa bo'ladi
+
+## Flexbox:
+
+# Flexbox container:
+
+# Align-items - kesuvchi o'qi (cross axis) bo'ylab elementlarni joylashuvini belgilaydi.
+
+# Align-items xossalari:
+
+Stretch(default)-elementlarimiz "flex container"ni to'ldirish uchun cho'ziladi.
+
+Center-elementlarimiz kesuvchi o'qning markazida joylashadi.
+
+Flex-start-elementlarimiz kesuvchi o'qning boshida joylashashadi.
+
+Flex-end-elementlarimiz kesuvchi o'qning oxirida joylashadi.
+
+# Align-content-kesuvchi o'q (cross axis) bo'ylab flex container liniyalarni joylashuvini belgilaydi va qo'shimcha bo'sh joyni taqsimlashga yordam beradi.
+
+Stretch(default)-elementlarimiz "flex container"ni to'ldirish uchun cho'ziladi.
+
+Flex-start-elementlarimiz kesuvchi o'qning boshida joylashashadi.
+
+Flex-end-elementlarimiz kesuvchi o'qning oxirida joylashadi.
+
+Center-elementlarimiz kesuvchi o'qning markazida joylashadi.
+
+space-between- flrx liniyalarimiz flex connatiner bo'yicha teng taqsimlanadi. Birinchi flex elementimiz container boshida,oxirgi elementimiz esa container oxirida joylashadi.
+
+spasce-around- flex linyalarimiz connatiner bo'yicha teng taqsimlanadi va har bir element atrofida teng masofa bo'ladi.Faqatgina birinchi,oxirgi element va container chegralari orasidagi masofa boshqa masofalardan farq qiladi.
+
+space-evenly- flex linyalarimiz connatiner bo'yicha teng taqsimlanadi va har bir element atrofida teng masofa bo'ladi
