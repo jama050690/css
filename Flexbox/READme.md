@@ -116,4 +116,16 @@ space-between- flrx liniyalarimiz flex connatiner bo'yicha teng taqsimlanadi. Bi
 
 spasce-around- flex linyalarimiz connatiner bo'yicha teng taqsimlanadi va har bir element atrofida teng masofa bo'ladi.Faqatgina birinchi,oxirgi element va container chegralari orasidagi masofa boshqa masofalardan farq qiladi.
 
-space-evenly- flex linyalarimiz connatiner bo'yicha teng taqsimlanadi va har bir element atrofida teng masofa bo'ladi
+## space-evenly- flex linyalarimiz connatiner bo'yicha teng taqsimlanadi va har bir element atrofida teng masofa bo'ladi
+
+## Flexbox-items xossalari:
+
+# Order-flex container ichida flex items odatiy oqimga (flow) ko'ra joylashadi,ya'ni html kodda birinchi yozilgan flex item veb sahifasida ham birinchi keladi,lekin order xossasi bu oqimni o'zgartirishi mumkin va flex items ketma-ketligini blgilab beradi.(order xossasi son ko'rinishidagi qiymatni qabul qiladi va qiymat qancha kichik bo'lsa flex item boshqa "item"lardan oldinroqda kelaveradi)
+
+---
+
+# flex-grow-"flex item"ni kerak payti o'z o'lchovini qanday oshirishini belgilab beradi. U son ko'rinishidagi qiymat qabul qilib,bo'sh qolgan joyni qancha qismini egallashni ko'rsatib beradi. Default qiymat 0 hisoblanadi.
+
+---
+
+# Flex-shrink-"flex item"ni kerak payti o'z o'lchovini qanday kichraytrishni belgilab beradi. U son ko'rinishidagi qiymat qabul qilib, joy qomlayotgan payt element qanday suratda kichrayishini belgilab beradi. Dwfault qiymat 1 hisoblanadi.
