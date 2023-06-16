@@ -129,3 +129,35 @@ spasce-around- flex linyalarimiz connatiner bo'yicha teng taqsimlanadi va har bi
 ---
 
 # Flex-shrink-"flex item"ni kerak payti o'z o'lchovini qanday kichraytrishni belgilab beradi. U son ko'rinishidagi qiymat qabul qilib, joy qomlayotgan payt element qanday suratda kichrayishini belgilab beradi. Dwfault qiymat 1 hisoblanadi.
+
+---
+
+# Flex basis-flex item uchun boshlang'ich o'lchovni belgilab beradi.
+
+---
+
+# Flex-flex-grow,flex-shrink va flex-basis uchun qisqartma (shorthand) hisoblanadi.
+
+---
+
+# ALign self-flec container ichidagi ko'rsatilgan "flex item"ni joylashavini belgilab beradi.Boshqacha qilib aytganda flex item uchun align items xossasi hisoblanadi.
+
+---
+
+Auto - elementimiz ota-onasining (parent) align items xossasini meros qilib oladi.
+
+---
+
+Stretch-ementimiz "flex container" ni to'ldirish uchun cho'ziladi.
+
+---
+
+center-elementimiz kesuvchi o'qning markazida joylashadi.
+
+---
+
+flex-start-elementimiz kesuvchi o'qning boshida joylashadi.
+
+---
+
+flex-end-elementimiz kesuvchi o'qimizning oxirida joylashadi.
