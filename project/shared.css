@@ -270,21 +270,24 @@ button {
     margin-top: 0;
 
 }
-
-.main-header__brand {
+.main-header .container {
+    display: flex;
+    align-items: center;
+}
+/*.main-header__brand {
     display: inline-block;
     vertical-align: middle;
-}
+}*/
 
 .main-header__brand img {
     width: 65px;
 }
-
+/*
 .main-navigation {
     display: inline-block;
     vertical-align: middle;
 }
-
+*/
 .main-navigation__item {
     display: inline-block;
     padding: 10px; /* 10 / 16=0.625rem */ 

@@ -19,17 +19,17 @@ textarea, input {
 .textarea:focus, input:focus {
     outline: 0;
 }
-.half-row {
-    width: 50%;
-    float: left;
-    box-sizing: border-box;
-    
+.half-flex {
+    display: flex;
 }
+
 .contact__firstname {
     padding-right: 0.93rem;
+    flex: 1;
 }
 .contact__email {
     padding-left: 0.93rem;
+    flex: 1;
 }
 .contact__send {
     margin-top: 1.87rem;
@@ -37,10 +37,11 @@ textarea, input {
 /* End of Partners section styles*/
 
 @media only screen and (max-width: 991px) {
-    .half-row {
-        width: 100%;
+    .half-flez {
+        flex-direction: column;
 }
 .contact__firstname,.contact__email {
     padding: 0;
 }
 
+}
