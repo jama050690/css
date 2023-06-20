@@ -184,7 +184,7 @@ body {
 
 .statistics_item {  
    /* display: inline-block;*/
-    width: 150px;
+    width: 100px;
     background-color: #f8faff;
     text-align: center;
     padding: 0.32rem  0.625rem; /* 1) 5 / 16 = 0.32rem 2) 10 / 16 = 0.625rem */ 
@@ -243,7 +243,7 @@ line-height: 1.69rem; /* 27 / 16 = 1.69rem */
 .services {
     padding-top: 6.25rem; /* 100 / 16 = 6.25rem */
 }
-.services-card {
+.services-cards {
     display: flex;
     justify-content: space-between;
 }
@@ -536,7 +536,7 @@ color: #797979;
     /* Statistic section  for smartfon stly start */
 
     .statistics {
-        padding: 1 rem;
+        padding: 1rem;
         text-align: center;
         justify-content: center;
     }    
@@ -562,7 +562,7 @@ color: #797979;
 .services-card {
     flex-wrap: wrap;
 }
-.service-card {
+.service-cards {
     flex-basis: 45%;
     margin-bottom: 20px;
 }
@@ -633,6 +633,7 @@ float: none;
   }
   .statistics__item {
     width: 100%;
+    align-items: center;
     margin-bottom: 20px; 
     margin-right: 0;
     box-sizing: border-box;
