@@ -289,8 +289,9 @@ line-height: 1.69rem; /* 27 / 16 = 1.69rem */
 .service-card:hover .service-card__description,
 .service-card:hover .service-card__link {
 
-color: #ffffff;
+    color: #ffffff;
 }
+
 /* End of Services section styles */
 
 /* Start of My clients  section styles*/
@@ -526,8 +527,8 @@ color: #797979;
  @media only screen and (max-width: 991px) {
     /*main-section*/
 
-    .main-section__image {
-        display: none;
+    .main-section__img {     
+     display: none;
     }
     .main-section > div {
         width: 100%;
@@ -549,7 +550,7 @@ color: #797979;
   .about-me > div {
     width: 100%;
 }
-.about-me__image {
+.about-me__img {
     display: none;
 }
 
@@ -559,7 +560,7 @@ color: #797979;
   .services {
     padding: 1.5rem 0;
 }
-.services-card {
+.services-cards {
     flex-wrap: wrap;
 }
 .service-cards {
